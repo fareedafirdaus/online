@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58722" started-at="2019-07-01T06:38:56Z" finished-at="2019-07-01T06:39:55Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58722" started-at="2019-07-01T06:38:56Z" finished-at="2019-07-01T06:39:55Z">
+      <class name="demo.NewTest">
+        <test-method status="PASS" signature="startReportBeforeTest()[pri:0, instance:demo.NewTest@5ba23b66]" name="startReportBeforeTest" is-config="true" duration-ms="1019" started-at="2019-07-01T12:08:56Z" finished-at="2019-07-01T12:08:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReportBeforeTest -->
+        <test-method status="PASS" signature="beforeclass()[pri:0, instance:demo.NewTest@5ba23b66]" name="beforeclass" is-config="true" duration-ms="17165" started-at="2019-07-01T12:08:57Z" finished-at="2019-07-01T12:09:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method status="FAIL" signature="testLogin()[pri:0, instance:demo.NewTest@5ba23b66]" name="testLogin" duration-ms="10738" started-at="2019-07-01T12:09:14Z" finished-at="2019-07-01T12:09:25Z">
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<jdkj> but was:<Login>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<jdkj> but was:<Login>
+	at junit.framework.Assert.assertEquals(Assert.java:81)
+	at junit.framework.Assert.assertEquals(Assert.java:87)
+	at demo.NewTest.testLogin(NewTest.java:98)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:demo.NewTest@5ba23b66]" name="getResultAfterMethod" is-config="true" duration-ms="9332" started-at="2019-07-01T12:09:25Z" finished-at="2019-07-01T12:09:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=FAILURE method=NewTest.testLogin()[pri:0, instance:demo.NewTest@5ba23b66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testRegistration()[pri:1, instance:demo.NewTest@5ba23b66]" name="testRegistration" duration-ms="3949" started-at="2019-07-01T12:09:35Z" finished-at="2019-07-01T12:09:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:demo.NewTest@5ba23b66]" name="getResultAfterMethod" is-config="true" duration-ms="3" started-at="2019-07-01T12:09:38Z" finished-at="2019-07-01T12:09:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=NewTest.testRegistration()[pri:1, instance:demo.NewTest@5ba23b66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testLoginn()[pri:2, instance:demo.NewTest@5ba23b66]" name="testLoginn" duration-ms="525" started-at="2019-07-01T12:09:38Z" finished-at="2019-07-01T12:09:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginn -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:demo.NewTest@5ba23b66]" name="getResultAfterMethod" is-config="true" duration-ms="1" started-at="2019-07-01T12:09:39Z" finished-at="2019-07-01T12:09:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginn status=SUCCESS method=NewTest.testLoginn()[pri:2, instance:demo.NewTest@5ba23b66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testCart()[pri:3, instance:demo.NewTest@5ba23b66]" name="testCart" duration-ms="2267" started-at="2019-07-01T12:09:39Z" finished-at="2019-07-01T12:09:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:demo.NewTest@5ba23b66]" name="getResultAfterMethod" is-config="true" duration-ms="1" started-at="2019-07-01T12:09:41Z" finished-at="2019-07-01T12:09:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCart status=SUCCESS method=NewTest.testCart()[pri:3, instance:demo.NewTest@5ba23b66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="testPayment()[pri:4, instance:demo.NewTest@5ba23b66]" name="testPayment" duration-ms="12544" started-at="2019-07-01T12:09:41Z" finished-at="2019-07-01T12:09:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+        <test-method status="PASS" signature="getResultAfterMethod(org.testng.ITestResult)[pri:0, instance:demo.NewTest@5ba23b66]" name="getResultAfterMethod" is-config="true" duration-ms="1" started-at="2019-07-01T12:09:54Z" finished-at="2019-07-01T12:09:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPayment status=SUCCESS method=NewTest.testPayment()[pri:4, instance:demo.NewTest@5ba23b66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResultAfterMethod -->
+        <test-method status="PASS" signature="endReportafterTest()[pri:0, instance:demo.NewTest@5ba23b66]" name="endReportafterTest" is-config="true" duration-ms="1008" started-at="2019-07-01T12:09:54Z" finished-at="2019-07-01T12:09:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReportafterTest -->
+      </class> <!-- demo.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
